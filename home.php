@@ -52,7 +52,7 @@ mysqli_close($connect);
 	<div class="banner container">
 		<div class="title">
 			<h2>Seja Bem Vindo!</h2>
-			<h2> Nosso compromisso é com a verdade dos fatos! </h2>
+			<h2> Projeto Desenvolvimento de Software para Web </h2>
 		</div>
 		<div class="logado bg-gradient radius">
 			<p>Bem vindo usuário <?php echo $dados['nome']; ?></p>
