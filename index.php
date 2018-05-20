@@ -89,7 +89,7 @@ if (isset($_POST['btn-registrar'])) {
 	<div class="banner container">
 		<div class="title">
 			<h2>Seja Bem Vindo!</h2>
-			<h2> Projeto APS Desenvolvimento de Software para Web </h2>
+			<h2> Projeto Desenvolvimento de Software para Web </h2>
 		</div>
 		<!-- BUTTONS -->
 		<div class="buttons">
