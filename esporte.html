@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>LS News</title>
+	<meta name="author" content="Lucas Silva">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet" type="text/css">
+	<link rel="icon" href="img/icon.png">
+</head>
+<body>
+	<!--CABEÇALHO-->
+	<header class="cabecalho container">
+		<a href="home.php"><h1 class="logo">LS News</h1></a>
+		<button class="btn-menu bg-gradient"><i class="fa fa-bars fa-lg"></i></button>
+		<nav class="menu">
+			<a class="btn-close"><i class="fa fa-times"></i></a>
+			<ul>
+				<li><a href="home.php">home</a></li>
+				<li><a href="pais.html">país</a></li>
+				<li><a href="mundo.html">mundo</a></li>
+				<li><a href="tecnologia.html">tecnologia</a></li>
+				<li><a href="esporte.html">esporte</a></li>
+				<li><a href="entretenimento.html">entretenimento</a></li>
+				<li><a href="curiosidades.html">curiosidades</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!-- BANNER -->
+	<div class="banner container">
+		<div class="title">
+			<h2>Esporte</h2>
+			<h2> Fique por dentro do que rola no mundo dos esportes </h2>
+		</div>
+	</div>
+	<!-- NOTICIAS ESPORTE -->
+		<main class="noticias container">
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/tite.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> Seleção </a>
+					<h4>O nome “Fred” na lista do Tite foi a maior causa de infartos hoje</h4>	
+				</div>
+			</article>
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/cr7.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> Vaidade </a>
+					<h4>Cristiano Ronaldo faz gol bonito e fica com ciúme dele</h4>
+				</div>
+			</article>
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/danialves.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> Estilo </a>
+					<h4>Daniel Alves doa roupas para a campanha do agasalho mas mendigos preferem passar frio</h4>
+				</div>
+			</article>
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/muralha.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> Mão de alface </a>
+					<h4>Hortifruti irá patrocinar luvas de Alex Muralha</h4>
+				</div>
+			</article>
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/neymar.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> "Trapaça" </a>
+					<h4>FIFA pode suspender jogador que atribuir gol a ajuda de Deus</h4>
+				</div>
+			</article>
+			<article class=" noticia bg-white radius">
+				<a href="#"><img src="img/tenis.jpg" alt=""></a>
+				<div class="inner">
+					<a href="#"> Sem risadinha </a>
+					<h4>Tenista fica mudo e abandona o esporte por não poder gritar nas rebatidas</h4>
+				</div>
+			</article>
+		</main>
+		<!-- NEWSLETTER -->
+		<section class="newsletter container bg-black">
+			<h2>Mantenha-se informado!</h2>
+			<h3> Receba notícias quentinhas em seu email!</h3>
+			<form action="">
+				<input type="email" name="email" placeholder="Digite seu email" class="bg-black radius">
+				<button class="bg-white radius"> Cadastrar </button>
+			</form>
+		</section>
+		<!-- RODAPÉ -->
+		<footer class="rodape container bg-gradient">
+			<div class="social-icons">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-google"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-envelope"></i></a>
+			</div>
+			<p class="copyright">Copyright &copy; LS News 2018 - Desenvolvimento de Software para Web </p>
+		</footer>
+		<!-- JQUERY BOTAO MENU -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script>
+			$(".btn-menu").click(function(){
+				$(".menu").show();
+			});
+			$(".btn-close").click(function(){
+				$(".menu").hide();
+			});
+		</script>	
+</body>
+</html>
